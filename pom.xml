@@ -7,6 +7,9 @@
         <module>cloud-eureka-server</module>
         <module>service-hello</module>
         <module>consumer-hello</module>
+        <module>dubbo-interface</module>
+        <module>dubbo-service</module>
+        <module>dubbo-consumer</module>
     </modules>
 
     <parent>
@@ -16,7 +19,7 @@
     </parent>
 
     <groupId>qingqing.hedan.cn</groupId>
-    <artifactId>cloud-parent</artifactId>
+    <artifactId>rpc-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -41,6 +44,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.5.8</version>
+        </dependency>
+        <dependency>
+            <groupId>io.dubbo.springboot</groupId>
+            <artifactId>spring-boot-starter-dubbo</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

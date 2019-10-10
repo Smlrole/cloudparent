@@ -7,10 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloudeurekaserver" />
-        <module name="consumerhello" />
-        <module name="servicehello" />
+        <module name="cloud-eureka-server" />
+        <module name="consumer-hello" />
+        <module name="dubboconsumer" />
+        <module name="dubbointerface" />
+        <module name="dubboservice" />
+        <module name="service-hello" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka-server" target="1.8" />
+      <module name="consumer-hello" target="1.8" />
+      <module name="dubboconsumer" target="1.8" />
+      <module name="dubbointerface" target="1.8" />
+      <module name="dubboservice" target="1.8" />
+      <module name="rpc-parent" target="1.8" />
+      <module name="service-hello" target="1.8" />
+      <module name="springcloudrpc" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

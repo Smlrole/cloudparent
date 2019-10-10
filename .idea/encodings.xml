@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hello" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
